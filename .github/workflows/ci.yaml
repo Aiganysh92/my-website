@@ -14,5 +14,5 @@ jobs:
       - name: Test pass
         run: exit 0
 
-      - name: Finish
-        run: echo "CI PASSED"
+      - name: chek index.html exists
+        run:test -f index.html
